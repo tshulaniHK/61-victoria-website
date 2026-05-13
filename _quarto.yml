@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "61 Victoria Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: project.qmd
+        text: The Project
+      - href: dinner.qmd
+        text: Dinner Guests
+      - href: reflections.qmd
+        text: Reflections
+      - href: partners.qmd
+        text: Partners
+
+format:
+  html:
+    theme:
+      - cosmo
+    css: styles.css
+    toc: false
+    include-after-body:
+      - assets/js/script.js
+editor: visual
