@@ -62,7 +62,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -79,11 +78,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -110,52 +109,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">61 Victoria Website</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./project.qmd"> 
-<span class="menu-text">The Project</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./dinner.qmd"> 
-<span class="menu-text">Dinner Guests</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./reflections.qmd"> 
-<span class="menu-text">Reflections</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./partners.qmd"> 
-<span class="menu-text">Partners</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
@@ -192,33 +150,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 </main> <!-- /main -->
-  function goTo(pageId) {
-
-    document.querySelectorAll('.page').forEach(p =&gt; p.classList.remove('active'));
-
-    document.querySelectorAll('.nav-links button').forEach(b =&gt; b.classList.remove('active-nav'));
-
-    document.getElementById('page-' + pageId).classList.add('active');
-
-    var navBtn = document.getElementById('nav-' + pageId);
-
-    if (navBtn) navBtn.classList.add('active-nav');
-
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-
-  }
-
-
-
-  function toggleMenu() {
-
-    document.getElementById('mobile-menu').classList.toggle('open');
-
-  }
-
-
-
-  goTo('home');
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

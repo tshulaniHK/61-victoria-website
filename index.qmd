@@ -4,11 +4,9 @@ format: html
 
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap">
+
 
 ```{=html}
-
 <!-- ══════════════════════════════════════════════════════
      NAVIGATION
 ══════════════════════════════════════════════════════ -->
@@ -52,7 +50,7 @@ format: html
       <h1>Welcome to<br><em>61 Victoria</em></h1>
       <p class="home-hero-sub">
         We are a Stellenbosch University house committed to quality education
-        and equipping Makapula Secondary High School learners with the tools
+        and equipping Makupula Secondary School learners with the tools
         to access higher education.
       </p>
       <div class="home-stats">
@@ -740,4 +738,5 @@ to match each partner's sector if you like.
 
   goTo('home');
 </script>
+
 ```
