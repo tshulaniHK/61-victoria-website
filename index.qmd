@@ -1,7 +1,7 @@
 ---
-title: "61 Victoria"
+title: ""
 format: html
-include-after-body: script.html
+
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
