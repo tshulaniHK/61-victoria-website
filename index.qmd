@@ -288,19 +288,18 @@ format: html
             </div>
             <div class="card-body">
               <p>We took top-performing Makupula learners on a guided visit to Stellenbosch University, exposing them to diverse faculties, campus life, and career paths. The experience made tertiary study feel tangible and within reach for every learner who attended.</p>
-              <!-- REPLACE WITH PHOTOS:
-                   Option A (grid): <div class="photo-grid">
-                      <img src="images/concept1_1.jpg" alt="Learners at SU Open Day 1">
-                        <img src="images/IMG-20260515-WA0161.jpg" alt="Learners at SU Open Day 2">
-                        <img src="images/IMG-20260515-WA0163.jpg" alt="Campus tour">
-                        <img src="images/IMG-20260515-WA0164.jpg" alt="Faculty visit">
-                        <img src="images/IMG-20260515-WA0169.jpg" alt="Group discussion">
-                        <img src="images/IMG-20260515-WA0170.jpg" alt="Learners exploring campus">
-                        <img src="images/IMG-20260515-WA01173.jpg" alt="Mentor session">
-                        <img src="images/IMG-20260515-WA0174.jpg" alt="Group photo at SU">
+             <div class="photo-grid">
+                        <img src="images/IMG-20260515-WA0181.jpg" alt="Learners at SU Open Day 1" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0161.jpg" alt="Learners at SU Open Day 2" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0163.jpg" alt="Campus tour" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0164.jpg" alt="Faculty visit" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0169.jpg" alt="Group discussion" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0170.jpg" alt="Learners exploring campus" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0173.jpg" alt="Mentor session" onclick="openLightbox(this.src)">
+                        <img src="images/IMG-20260515-WA0174.jpg" alt="Group photo at SU" onclick="openLightbox(this.src)">
                    </div>
-                   Option B (single): <div class="photo-single"><img src="photo.jpg" alt="SU Open Day"></div>
-              -->
+                  
+       
           
           </article>
 
@@ -324,7 +323,9 @@ format: html
               </div>
             </div>
           </article>
-
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="">
+</div>
         </div>
 
       </div>
