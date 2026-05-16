@@ -40,7 +40,7 @@ body {
   z-index: 200;
 }
 .nav-inner {
-  max-width: 1080px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
   height: 62px;
@@ -118,7 +118,7 @@ body {
 }
 
 /* ── Shared layout helpers ───────────────────────────── */
-.wrap { max-width: 1080px; margin: 0 auto; padding: 0 2rem; }
+.wrap { max-width: 100%; margin: 0 auto; padding: 0 2rem; }
 .sec-label {
   font-size: 11px; font-weight: 700;
   letter-spacing: 0.16em; text-transform: uppercase;
@@ -152,7 +152,7 @@ body {
   color: rgba(255,255,255,0.06);
   line-height: 1; pointer-events: none;
 }
-.page-hero-inner { max-width: 1080px; margin: 0 auto; position: relative; z-index: 1; }
+.page-hero-inner { max-width: 100%; margin: 0 auto; position: relative; z-index: 1; }
 .page-hero-eyebrow {
   display: inline-flex; align-items: center; gap: 6px;
   background: rgba(255,255,255,0.15);
@@ -372,7 +372,7 @@ body {
   margin-top: 4rem;
 }
 .footer-inner {
-  max-width: 1080px; margin: 0 auto;
+  max-width: 100%; margin: 0 auto;
   display: flex; align-items: center;
   justify-content: space-between;
   flex-wrap: wrap; gap: 16px;
@@ -403,7 +403,7 @@ body {
   color: rgba(255,255,255,0.05); line-height: 1;
   pointer-events: none; user-select: none;
 }
-.home-hero-inner { max-width: 1080px; margin: 0 auto; position: relative; z-index: 1; width: 100%; }
+.home-hero-inner { max-width: 100%; margin: 0 auto; position: relative; z-index: 1; width: 100%; }
 .home-eyebrow {
   display: inline-flex; align-items: center; gap: 8px;
   background: rgba(255,255,255,0.15);
@@ -445,7 +445,7 @@ body {
   padding: 14px 2rem;
 }
 .home-ribbon-inner {
-  max-width: 1080px; margin: 0 auto;
+  max-width: 100%; margin: 0 auto;
   display: flex; gap: 2.5rem; flex-wrap: wrap; align-items: center;
 }
 .ribbon-item {
@@ -527,15 +527,21 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 9999;
+  padding: 20px;
+}
+.lightbox.open {
+  display: flex;
 }
 
 .lightbox img {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 85vw;
+  max-height: 85vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   border-radius: 10px;
   cursor: zoom-out;
 }
-
 /* ── Responsive ──────────────────────────────────────── */
 @media (max-width: 640px) {
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
@@ -544,4 +550,24 @@ body {
   .home-hero-wm { font-size: 200px; }
   .guest-card { flex-direction: column; }
   .photo-grid { grid-template-columns: 1fr; }
+}
+/* ── Quarto overrides — full width ───────────────────── */
+body > .container,
+body > .container-fluid,
+#quarto-content,
+#quarto-document-content,
+.page-layout-full,
+main.content,
+div#quarto-margin-sidebar,
+.quarto-title-block {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Remove Quarto's default body padding */
+body {
+  padding: 0 !important;
+  margin: 0 !important;
 }
