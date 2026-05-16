@@ -510,9 +510,7 @@ At Makupula, I learned the value of patience and clear communication in mentorsh
   
   <div class="reflection-card">
   <blockquote>
-  "This project is a reminder of why we are at Stellenbosch. We have a responsibility
-              to open doors for those who come after us. That responsibility does not stop when
-              the workshops end."
+  "Working with Makupula Secondary School and continuing the relationship established by previous LLL houses with the same SDG has shown the importance of sustainability of any project - but particularly those which contribute to the shaping of young minds and their access to fair and reliant mentorship. Our sessions thus far have shown how important it is to share resources and lived experience with the future of our country."
 </blockquote><!-- Replace -->
   <div class="r-author">
   <div class="avatar">IK</div><!-- Replace -->
@@ -632,7 +630,7 @@ to match each partner's sector if you like.
               <div class="partner-ico">
                 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3L2 9h20L12 3zM5 9v10M19 9v10M2 19h20"/><circle cx="12" cy="14" r="2"/></svg>
               </div>
-              <h4>Stellenbosch University</h4>
+              <h4>Centre for the Advancement of Social Impact and Transformation (CASIT)</h4>
             </div>
             <p>SU structures provide guidance, campus access, and institutional legitimacy for the university readiness journey our learners undertake. The Open Day would not have been possible without SU's welcome.</p>
   </div>
@@ -642,7 +640,7 @@ to match each partner's sector if you like.
   <div class="partner-ico">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path d="M9 22V12h6v10"/></svg>
   </div>
-  <h4>LLL — Senior Living Spaces</h4>
+  <h4>Listen Live and Learn </h4>
   </div>
   <p>The broader LLL cluster provides oversight, institutional continuity, and a community of practice that ensures the programme outlives any single house cohort and continues to grow year on year.</p>
   </div>
@@ -652,7 +650,7 @@ to match each partner's sector if you like.
   <div class="partner-ico">
   <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="3" width="15" height="13" rx="2"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
   </div>
-  <h4>Transport &amp; logistics providers</h4>
+  <h4>The Unidreams Foundation</h4>
   </div>
   <p>Local vehicle hire services support learner transport for off-campus events including the SU Open Day and scheduled workshop sessions, removing a key barrier to participation for learners.</p>
   </div>
