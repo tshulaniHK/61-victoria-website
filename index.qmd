@@ -191,7 +191,7 @@ format:
                                                               <div class="footer-inner">
                                                                 <div>
                                                                 <div class="footer-brand">61 Victoria — Social Impact ePortfolio</div>
-                                                                  <div class="footer-sub">LLL Senior Living Spaces · Stellenbosch University · 2026</div>
+                                                                  <div class="footer-sub">&copy; 2026 61 Victoria — LLL</div>
                                                                     </div>
                                                                     <div class="footer-sdg">SDG 4 — Quality Education</div>
                                                                       </div>
@@ -345,7 +345,7 @@ format:
     <div class="footer-inner">
       <div>
         <div class="footer-brand">61 Victoria — The Project</div>
-        <div class="footer-sub">LLL Senior Living Spaces · Stellenbosch University · 2026</div>
+       <div class="footer-sub">&copy; 2026 61 Victoria — LLL</div>
       </div>
       <div class="footer-sdg">SDG 4 — Quality Education</div>
     </div>
@@ -433,7 +433,7 @@ To REMOVE a guest, delete their .guest-card block.
   <div class="footer-inner">
   <div>
   <div class="footer-brand">61 Victoria — Dinner Guests</div>
-  <div class="footer-sub">LLL Senior Living Spaces · Stellenbosch University · 2026</div>
+  <div class="footer-sub">&copy; 2026 61 Victoria — LLL</div>
   </div>
   <div class="footer-sdg">SDG 4 — Quality Education</div>
   </div>
@@ -478,11 +478,7 @@ Copy/paste .reflection-card blocks to add more housemates.
   
   <div class="reflection-card">
   <blockquote>
-  "The Makupula Secondary School project has been a meaningful and eye-opening experience. Through both the Stellenbosch University Open Day and our visit to Makupula Secondary School, I gained a deeper understanding of how important access to information, exposure, and guidance is for learners preparing for university.
-
-At the Open Day, I saw how powerful exposure can be. For many learners, it was their first time on a university campus, and it helped make higher education feel more real and attainable. I realised how unfamiliar and intimidating these spaces can feel, and how much confidence can grow simply through guided exposure and open conversations.
-
-At Makupula, I learned the value of patience and clear communication in mentorship. Many learners are capable but lack structured support around applications, funding, and study options. This experience showed me how important it is to create a space where learners feel supported and comfortable asking questions."
+  "The Makupula Secondary School project has been a meaningful and eye-opening experience, as through both the Stellenbosch University Open Day and our visit to Makupula Secondary School, I gained a deeper understanding of how important access to information, exposure, and guidance is for learners preparing for university. At the Open Day, I saw how powerful exposure can be, as for many learners it was their first time on a university campus, which helped make higher education feel more real and attainable, and I realised how unfamiliar and intimidating these spaces can feel, and how much confidence can grow simply through guided exposure and open conversations. At Makupula, I learned the value of patience and clear communication in mentorship, as many learners are capable but lack structured support around applications, funding, and study options, and this experience showed me how important it is to create a space where learners feel supported and comfortable asking questions."
 </blockquote><!-- Replace with real reflection -->
   <div class="r-author">
   <div class="avatar">SN</div><!-- Replace initials -->
@@ -495,9 +491,7 @@ At Makupula, I learned the value of patience and clear communication in mentorsh
   
   <div class="reflection-card">
   <blockquote>
-  "Explaining NSFAS and funding options reminded me how much we take for granted.
-              These learners are capable of anything — they just need the information and someone
-              to believe in them."
+  "Working on the Makupula Secondary School project has been an enriching experience that highlighted for me how uneven access to guidance and information can shape learners’ educational journeys. Being part of the SU Open Day allowed me to see how powerful it is for learners to step into a university setting, as it shifts higher education from something abstract into something tangible, while also revealing how uncertain many students feel when encountering such environments for the first time. Our follow-up visit to Makupula Secondary School further reinforced this, as engaging directly with learners showed me that many have strong aspirations but often lack clarity on the practical steps needed to pursue them, particularly around applications, funding, and available programmes. Overall, the project made me more aware of how meaningful consistent engagement and accessible guidance can be in helping learners better understand their options and feel more confident about their futures after matric."
 </blockquote><!-- Replace -->
   <div class="r-author">
   <div class="avatar">TK</div><!-- Replace -->
@@ -523,23 +517,7 @@ At Makupula, I learned the value of patience and clear communication in mentorsh
   
   <div class="reflection-card">
   <blockquote>
-  "The dinner conversations challenged us to think deeply about what quality education
-              really means for learners who have never had a mentor in higher education. It changed
-              how I see my own journey."
-</blockquote><!-- Replace -->
-  <div class="r-author">
-  <div class="avatar">WF</div><!-- Replace -->
-  <div>
-  <div class="r-name">Wayde Francis</div><!-- Replace -->
-  <div class="r-role">61 Victoria, 2026</div>
-  </div>
-  </div>
-  </div>
-  
-  <div class="reflection-card">
-  <blockquote>
-  "I did not expect to learn as much as the students did. Mentoring others forces you
-              to articulate what you know — and to reckon honestly with what you do not."
+  "Reflecting on the first session during the Stellenbosch University Open Day, aside from the weather, I really enjoyed the experience, especially working with the Grade 12 learners, who were respectful and eager to engage, although both they and I were initially a bit nervous, which is understandable in a new environment. The second session, where we visited the school with my housemates, felt even more impactful, as many learners seemed more open to the idea of pursuing further education after Grade 12 and more comfortable discussing their future plans and possibilities. One of my biggest takeaways from this house project is how important exposure and access to information can be, especially since I also attended a public school with limited resources and often feel that an opportunity like this during my matric year would have helped me transition into university life more confidently by knowing what to expect. Even for those who may not choose the university route, it is important that they now know it is an available option, because sometimes opportunities feel limited simply due to lack of exposure, and learning about different paths can broaden horizons and help people imagine bigger futures. I was truly happy to be part of this project and grateful for the opportunity to contribute in a meaningful way"
 </blockquote><!-- Replace -->
   <div class="r-author">
   <div class="avatar">LM</div><!-- Replace -->
@@ -552,8 +530,21 @@ At Makupula, I learned the value of patience and clear communication in mentorsh
   
   <div class="reflection-card">
   <blockquote>
-  "Watching a learner's face change when they realise university is actually possible
-              for them — that is something I will carry with me long after this year is over."
+ 
+</blockquote><!-- Replace -->
+  <div class="r-author">
+  <div class="avatar">WF</div><!-- Replace -->
+  <div>
+  <div class="r-name">Wayde Francis</div><!-- Replace -->
+  <div class="r-role">61 Victoria, 2026</div>
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="reflection-card">
+  <blockquote>
+ 
 </blockquote><!-- Replace -->
   <div class="r-author">
   <div class="avatar">OL</div><!-- Replace -->
@@ -574,7 +565,7 @@ At Makupula, I learned the value of patience and clear communication in mentorsh
   <div class="footer-inner">
   <div>
   <div class="footer-brand">61 Victoria — Reflections</div>
-  <div class="footer-sub">LLL Senior Living Spaces · Stellenbosch University · 2026</div>
+ <div class="footer-sub">&copy; 2026 61 Victoria — LLL</div>
   </div>
   <div class="footer-sdg">SDG 4 — Quality Education</div>
   </div>
@@ -677,7 +668,7 @@ to match each partner's sector if you like.
     <div class="footer-inner">
       <div>
         <div class="footer-brand">61 Victoria — Our Partners</div>
-        <div class="footer-sub">LLL Senior Living Spaces · Stellenbosch University · 2026</div>
+       <div class="footer-sub">&copy; 2026 61 Victoria — LLL</div>
       </div>
       <div class="footer-sdg">SDG 4 — Quality Education</div>
     </div>
