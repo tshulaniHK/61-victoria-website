@@ -12,3 +12,7 @@
 *.heic
 *.HEIC
 originals/
+
+# Photos kept on the local machine only (not published)
+docs/images/guests/
+docs/images/sessions/
