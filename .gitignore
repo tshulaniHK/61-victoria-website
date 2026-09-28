@@ -1,8 +1,14 @@
+.DS_Store
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
-.positai
-
 /.quarto/
-**/*.quarto_ipynb
+
+# Keep original photos, videos and reports on the local machine only.
+# Only the compressed web copies in docs/images/ are published.
+*.pdf
+*.PDF
+*.heic
+*.HEIC
+originals/
